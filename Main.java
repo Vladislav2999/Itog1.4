@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -26,14 +27,12 @@ public class Main {
         }
     }
 
-
-
-        private static void printMenu () {
-            System.out.println("Выберете действие: ");
-            System.out.println("1 - Ввести количество шагов за определённый день " +
-                    "2 - Напечатать статистику за определённый месяц " +
-                    "3 - Изменить цель по количеству шагов в день " +
-                    "0 - Выйти из приложения ");
-        }
+    private static void printMenu() {
+        System.out.println("Выберете действие: ");
+        System.out.println("1 - Ввести количество шагов за определённый день " +
+                "2 - Напечатать статистику за определённый месяц " +
+                "3 - Изменить цель по количеству шагов в день " +
+                "0 - Выйти из приложения ");
+    }
 
 }
